@@ -11,7 +11,7 @@ export default function TeamPage() {
       bio: "Visionnaire et leader technique avec plus de 10 ans d'expérience. Expert en architecture logicielle et transformation digitale.",
       skills: ["Leadership", "Architecture", "Strategy", "Full-Stack"],
       initials: "ME",
-      photo: "/metoevi-etienne-director.png",
+      photo: "https://i.pinimg.com/736x/b7/35/2d/b7352d3855ba4f19a78545327b24848c.jpg",
     },
     {
       name: "Sarah DUBOIS",

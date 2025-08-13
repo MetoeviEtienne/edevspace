@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next';
 import type React from "react"
 import type { Metadata } from "next"
 import { Montserrat, Open_Sans } from "next/font/google"
@@ -23,8 +24,8 @@ export const metadata: Metadata = {
   description:
     "EDevSpace, dirigé par METOEVI Etienne, offre des services de développement web, applications mobiles et solutions cloud. Transformez votre vision digitale avec notre expertise technique.",
   keywords: [
-    "développement web",
-    "applications mobiles",
+    "développement web fullstack",
+    "applications mobiles fullstack",
     "solutions cloud",
     "transformation digitale",
     "EDevSpace",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     "programmation",
     "technologie",
   ],
-  authors: [{ name: "METOEVI Etienne", url: "https://edevspace.com" }],
+  authors: [{ name: "METOEVI Etienne", url: "https://edevspace.vercel.app/" }],
   creator: "EDevSpace",
   publisher: "EDevSpace",
   formatDetection: {
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://edevspace.com"),
+  metadataBase: new URL("https://edevspace.vercel.app/"),
   alternates: {
     canonical: "/",
     languages: {
@@ -52,11 +53,11 @@ export const metadata: Metadata = {
     title: "EDevSpace - Empowering Your Digital Transformation",
     description:
       "Solutions de développement web et mobile sur mesure. Dirigé par METOEVI Etienne, nous transformons vos idées en réalité digitale.",
-    url: "https://edevspace.com",
+    url: "https://edevspace.vercel.app/",
     siteName: "EDevSpace",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://i.pinimg.com/736x/87/9c/e6/879ce61027d9d2048860558e325107d4.jpg",
         width: 1200,
         height: 630,
         alt: "EDevSpace - Transformation Digitale",
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
     title: "EDevSpace - Développement Web & Mobile",
     description:
       "Transformez votre vision digitale avec EDevSpace. Développement web, applications mobiles et solutions cloud.",
-    images: ["/og-image.jpg"],
+    images: ["https://i.pinimg.com/736x/87/9c/e6/879ce61027d9d2048860558e325107d4.jpg"],
     creator: "@edevspace",
   },
   robots: {
@@ -85,9 +86,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code",
+    google: "H7tjCBDhSvJIy0eWgcVu6Scs61UZRWY5ENwuNmlr6e0",
   },
-    generator: 'v0.app'
+    generator: 'METOEVI Etienne',
 }
 
 export default function RootLayout({
@@ -98,7 +99,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${montserrat.variable} ${openSans.variable}`} suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://edevspace.com" />
+        <link rel="canonical" href="https://edevspace.vercel.app/" />
         <meta name="geo.region" content="FR" />
         <meta name="geo.placename" content="France" />
         <meta name="ICBM" content="46.603354, 1.888334" />
@@ -107,6 +108,7 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="dark" storageKey="edevspace-theme">
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
