@@ -10,13 +10,13 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "EDevSpace",
-    url: "https://edevspace.com",
-    logo: "https://edevspace.com/logo.png",
+    url: "https://edevspace.vercel.app/",
+    logo: "https://i.pinimg.com/736x/87/9c/e6/879ce61027d9d2048860558e325107d4.jpg",
     description:
       "EDevSpace offre des services de développement web, applications mobiles et solutions cloud pour la transformation digitale des entreprises.",
     founder: {
       "@type": "Person",
-      name: "METOEVI Etienne",
+      name: "METOEVI S. Etienne",
       jobTitle: "Directeur et Fondateur",
       email: "etiennemetoevi82@gmail.com",
     },
@@ -30,7 +30,7 @@ export default function HomePage() {
       contactType: "customer service",
       email: "etiennemetoevi82@gmail.com",
     },
-    sameAs: ["https://linkedin.com/company/edevspace", "https://twitter.com/edevspace"],
+    sameAs: ["https://www.linkedin.com/in/etienne-metoevi-197931315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://x.com/EDevcode?t=2Blb0LwR4Y9o764KTVdcHA&s=09"],
     services: ["Développement Web", "Applications Mobiles", "Solutions Cloud", "Transformation Digitale"],
   }
 

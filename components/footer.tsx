@@ -76,23 +76,23 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-brand-purple" />
-                <span className="text-gray-300 text-sm">+33 1 23 45 67 89</span>
+                <span className="text-gray-300 text-sm">+22959411467</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-brand-purple" />
-                <span className="text-gray-300 text-sm">Paris, France</span>
+                <span className="text-gray-300 text-sm">Bénin, Cotonou</span>
               </div>
             </div>
 
             {/* Social Links */}
             <div className="flex space-x-4 mt-6">
-              <Link href="#" className="text-gray-300 hover:text-brand-purple transition-colors">
+              <Link href="https://www.linkedin.com/in/etienne-metoevi-197931315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-300 hover:text-brand-purple transition-colors">
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-300 hover:text-brand-purple transition-colors">
+              <Link href="https://x.com/EDevcode?t=2Blb0LwR4Y9o764KTVdcHA&s=09" className="text-gray-300 hover:text-brand-purple transition-colors">
                 <Twitter className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-gray-300 hover:text-brand-purple transition-colors">
+              <Link href="https://github.com/MetoeviEtienne" className="text-gray-300 hover:text-brand-purple transition-colors">
                 <Github className="h-5 w-5" />
               </Link>
             </div>
@@ -100,7 +100,9 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400 text-sm">© 2024 EDevSpace. Tous droits réservés. Dirigé par METOEVI Etienne.</p>
+         <p className="text-gray-400 text-sm">
+          © {new Date().getFullYear()} EDevSpace. Tous droits réservés. Dirigé par METOEVI Etienne.
+        </p>
         </div>
       </div>
     </footer>

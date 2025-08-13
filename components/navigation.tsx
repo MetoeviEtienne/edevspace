@@ -56,7 +56,7 @@ export function Navigation() {
                 Formation
               </Button>
             </Link>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white">Devis Gratuit</Button>
+            <Link href="/contact" className="bg-purple-600 hover:bg-purple-700 text-white">Devis Gratuit</Link>
           </div>
 
           {/* Mobile menu button */}
