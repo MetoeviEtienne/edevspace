@@ -6,12 +6,12 @@ import { Linkedin, Twitter, Github, Mail } from "lucide-react"
 export default function TeamPage() {
   const teamMembers = [
     {
-      name: "METOEVI Etienne",
+      name: "METOEVI S. Etienne",
       role: "Directeur & Fondateur",
       bio: "Visionnaire et leader technique avec plus de 10 ans d'expérience. Expert en architecture logicielle et transformation digitale.",
       skills: ["Leadership", "Architecture", "Strategy", "Full-Stack"],
       initials: "ME",
-      photo: "https://i.pinimg.com/736x/b7/35/2d/b7352d3855ba4f19a78545327b24848c.jpg",
+      photo: "https://i.pinimg.com/736x/21/ea/f2/21eaf23f111d9de2ce23a6a90c034188.jpg",
     },
     {
       name: "Sarah DUBOIS",
