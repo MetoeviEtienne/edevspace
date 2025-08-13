@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: "https://edevspace.com/about",
     images: [
       {
-        url: "https://i.pinimg.com/736x/b7/35/2d/b7352d3855ba4f19a78545327b24848c.jpg",
+        url: "https://i.pinimg.com/736x/21/ea/f2/21eaf23f111d9de2ce23a6a90c034188.jpg",
         width: 800,
         height: 600,
         alt: "METOEVI Etienne - Directeur et Fondateur d'EDevSpace",
@@ -191,7 +191,7 @@ export default function AboutPage() {
                   <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="aspect-square bg-gradient-to-br from-brand-purple/10 to-gray-100 overflow-hidden">
                       <img
-                        src="https://i.pinimg.com/736x/b7/35/2d/b7352d3855ba4f19a78545327b24848c.jpg"
+                        src="https://i.pinimg.com/736x/21/ea/f2/21eaf23f111d9de2ce23a6a90c034188.jpg"
                         alt="METOEVI Etienne - Directeur & Fondateur d'EDevSpace, expert en développement logiciel"
                         className="w-full h-full object-cover"
                         loading="lazy"
