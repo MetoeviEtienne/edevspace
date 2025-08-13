@@ -46,7 +46,7 @@ export default function AboutPage() {
         "@type": "Person",
         name: "METOEVI Etienne",
         jobTitle: "Directeur et Fondateur",
-        image: "https://edevspace.com/metoevi-etienne-director.png",
+        image: "https://i.pinimg.com/736x/b7/35/2d/b7352d3855ba4f19a78545327b24848c.jpg",
       },
       foundingDate: "2019",
       description:
@@ -105,7 +105,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="aspect-square bg-gradient-to-br from-brand-purple/20 to-gray-800/20 rounded-2xl overflow-hidden">
                   <img
-                    src="/metoevi-etienne-director.png"
+                    src="https://i.pinimg.com/736x/0a/a4/fa/0aa4fac21d02e9e3e40d918111b7fae2.jpg"
                     alt="METOEVI Etienne - Directeur EDevSpace, expert en transformation digitale"
                     className="w-full h-full object-cover"
                     loading="lazy"
